@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest version="1.0">
+  <title>Mi App de Streaming</title>
+  <major_version>1</major_version>
+  <minor_version>0</minor_version>
+  <build_version>1</build_version>
+  
+  <ui_resolutions>
+    <ui_resolution height="720" width="1280" />
+    <ui_resolution height="1080" width="1920" />
+  </ui_resolutions>
+
+  <splash_screen>
+    <image>images/splash_hd.png</image>
+    <color>#000000</color>
+  </splash_screen>
+
+  <bs_const>ENABLE_SCENEGRAPH_DEBUG=1</bs_const>
+</manifest>
