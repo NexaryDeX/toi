@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoScene" extends="Group">
+    <script type="text/brightscript" uri="VideoScene.brs" />
+    
+    <children>
+        <Video
+            id="videoPlayer"
+            width="1920"
+            height="1080"
+            />
+        <Rectangle
+            id="backdrop"
+            width="1920"
+            height="150"
+            color="#000000"
+            opacity="0.8"
+            />
+        <Label
+            id="videoTitle"
+            translation="[50, 50]"
+            width="1820"
+            height="50"
+            font="font:LargeBoldSystemFont"
+            color="#FFFFFF"
+            />
+    </children>
+</component>
