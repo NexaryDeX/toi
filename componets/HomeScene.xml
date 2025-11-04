@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HomeScene" extends="Scene">
+    <script type="text/brightscript" uri="HomeScene.brs" />
+    
+    <children>
+        <PosterGrid
+            id="posterGrid"
+            translation="[100, 150]"
+            itemSize="[250, 375]"
+            numColumns="4"
+            numRows="3"
+            caption1NumLines="1"
+            itemSpacing="[40, 40]"
+            />
+        <Label
+            id="titleLabel"
+            translation="[100, 100]"
+            width="800"
+            height="50"
+            font="font:LargeBoldSystemFont"
+            color="#FFFFFF"
+            />
+    </children>
+</component>
